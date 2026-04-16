@@ -22,7 +22,7 @@ int main(){
     for (i=0; i<100; i++){
         if ((valores[i] % 2 != 0)) {
             qtd_impares++;
-            printf("%d\n", valores[i]);
+            printf("%   d\n", valores[i]);
         }
     }
     printf("Quantidade de ímpares: %d\n", qtd_impares);
